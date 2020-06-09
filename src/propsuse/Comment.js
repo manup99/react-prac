@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import faker from 'faker';
-import logo from './logo512.png'
+import logo from '../logo512.png'
 
 const Comment = function(props){
     console.log(props)
