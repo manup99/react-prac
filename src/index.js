@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 import App from './App'
 import SeasonApp from './seasons/SeasonApp'
 import PicApp from './pics/PicApp'
+import VideoApp from './youtube/VideoApp'
 //Create react components
 
 //Take the react component and show it on the screen
-ReactDOM.render(<PicApp />, document.querySelector('#root'));
+ReactDOM.render(<VideoApp />, document.querySelector('#root'));
